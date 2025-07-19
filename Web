@@ -99,3 +99,134 @@ padding: 20px;
 </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Cashew Style</title>
+<style>
+body {
+margin: 0;
+font-family: "Comic Sans MS", cursive, sans-serif;
+background-color: #fdf6f0;
+color: #444;
+}
+
+header {
+background-color: #ffe2e2;
+display: flex;
+align-items: center;
+padding: 10px 30px;
+justify-content: space-between;
+}
+
+header img {
+height: 60px;
+}
+
+nav {
+display: flex;
+gap: 20px;
+}
+
+nav a {
+text-decoration: none;
+color: #d65a5a;
+font-weight: bold;
+transition: 0.3s;
+}
+
+nav a:hover {
+color: #ff9a76;
+}
+
+.banner {
+background-color: #ffecd2;
+text-align: center;
+padding: 40px 20px;
+font-size: 1.8em;
+font-weight: bold;
+color: #e06767;
+}
+
+.product-grid {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+padding: 30px;
+justify-content: center;
+}
+
+.product {
+background-color: #fff;
+border-radius: 12px;
+box-shadow: 0 0 10px rgba(0,0,0,0.05);
+padding: 20px;
+text-align: center;
+width: 200px;
+}
+
+.product img {
+width: 100%;
+border-radius: 10px;
+}
+
+.button {
+margin-top: 10px;
+padding: 8px 16px;
+background-color: #f7b267;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.button:hover {
+background-color: #ff9248;
+}
+
+footer {
+background-color: #ffe2e2;
+padding: 20px;
+text-align: center;
+font-size: 0.9em;
+color: #777;
+}
+</style>
+</head>
+<body>
+<header>
+<img src="logo.png" alt="Cashew Style Logo" />
+<nav>
+<a href="#">Skleničky</a>
+<a href="#">Hrnečky</a>
+<a href="#">Plátěné tašky</a>
+<a href="#">Trička</a>
+<a href="#">O nás</a>
+<a href="#">Podmínky</a>
+</nav>
+</header>
+
+<div class="banner">Vítej ve světě Cashew Style – hravý design pro každodenní radost!</div>
+
+<div class="product-grid">
+<div class="product">
+<img src="produkty/sklenicka1.jpg" alt="Sklenička" />
+<p>Letní sklenička</p>
+<button class="button">Přidat do košíku</button>
+</div>
+<div class="product">
+<img src="produkty/hrnek1.jpg" alt="Hrneček" />
+<p>Ranní hrnek</p>
+<button class="button">Přidat do košíku</button>
+</div>
+<!-- Další produkty -->
+</div>
+
+<footer>
+© 2025 Cashew Style – Všechna práva vyhrazena
+</footer>
+</body>
+</html>
